@@ -2,5 +2,5 @@
   font-family: 'Oleo Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Oleo Script'), local('OleoScript-Regular'), url(_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(_weQNDK6Uf40CiGFKBBUjrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(https://raw.githubusercontent.com/stoneark/stoneark.github.io/master/googlefonts/OleoScript/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(https://raw.githubusercontent.com/stoneark/stoneark.github.io/master/googlefonts/OleoScript/_weQNDK6Uf40CiGFKBBUjrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
