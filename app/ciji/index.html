@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>词记 - 用一个词记录今天</title>
+    <link rel="stylesheet" href="__resource__/library.misc.bootstrap%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.misc.fontawesome%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.Marketing%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/public.Home%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.App%3Acommon.css" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.App%3Astyleguide.css" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.FloatingBox%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.overlays.Overlay%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.overlays.ButtonOverlay%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.overlays.AmbiguousProgressOverlay%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.Dashboard%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/public.dashboard.DashboardLauncher%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.controllers.onboarding.iTunesAppSearch%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.misc.inlineeditable%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.misc.placeholderlabels%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.overlays.PlainOverlay%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.overlays.TitledOverlay%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.uploads.DragOrChoose%3Acss" data-bundle="base">
+    <link rel="stylesheet" href="__resource__/library.websites.WebsiteRenderer%3Acss" data-bundle="websites">
+    <link rel="stylesheet" href="__resource__/public.websites.dashboard.WebsitesDashboard%3Acss" data-bundle="websites">
+    <link rel="stylesheet" href="__resource__/public.websites.onboard.WebsitesOnboard%3Acss" data-bundle="websites">
+    <link rel="stylesheet" href="__resource__/public.websites.onboard.confirm.WebsiteConfirm%3Acss" data-bundle="websites">
+    <link rel="stylesheet" href="__resource__/public.websites.dashboard.__id__.edit.WebsiteEdit%3Acss" data-bundle="websites">
+    <link rel="stylesheet" href="__resource__/public.websites.dashboard.__id__.templates.WebsiteTemplate%3Acss" data-bundle="websites">
+
+<link href="image/thumb/512x512bb.jpg" rel="shortcut icon" type="image/x-icon">
+
+<meta name="description" content="你一定写过日记。或许是小学语文老师布置的家庭作业，或许是青春期时懵懵懂懂的情感记忆，或许是长大后日记本里给自己的加油打气，或许是旅行在外每天晚上写下的旅途随笔。词记，让你用一个独特的方式写日记。把今天所有的点点滴滴，在思绪中整理、精心挑选，然后只用一个词来概括。">
+<meta name="keywords" content="词记,詞記,Ciji,日记,记事,备忘">
+
+<!-- Facebook -->
+<meta property="og:site_name" content="词记">
+<meta property="og:title" content="用一个词记录今天">
+<meta property="og:description" content="你一定写过日记。或许是小学语文老师布置的家庭作业，或许是青春期时懵懵懂懂的情感记忆，或许是长大后日记本里给自己的加油打气，或许是旅行在外每天晚上写下的旅途随笔。词记，让你用一个独特的方式写日记。把今天所有的点点滴滴，在思绪中整理、精心挑选，然后只用一个词来概括。">
+<meta property="og:url" content="http://">
+<meta property="og:image" content="http://is3.mzstatic.com/image/thumb/Purple18/v4/f8/d5/f0/f8d5f00a-fe2c-eb10-470d-4b4a4777e4ae/source/512x512bb.jpg">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="app">
+<meta name="twitter:title" content="词记 - 用一个词记录今天">
+<meta name="twitter:description" content="你一定写过日记。或许是小学语文老师布置的家庭作业，或许是青春期时懵懵懂懂的情感记忆，或许是长大后日记本里给自己的加油打气，或许是旅行在外每天晚上写下的旅途随笔。词记，让你用一个独特的方式写日记。把今天所有的点点滴滴，在思绪中整理、精心挑选，然后只用一个词来概括。">
+<meta name="twitter:image:src" content="image/thumb/512x512bb.jpg">
+<meta name="twitter:domain" content="http://">
+<meta name="twitter:app:name:iphone" content="词记">
+<meta name="twitter:app:id:iphone" content="1113379853">
+<meta name="twitter:app:name:ipad" content="词记">
+<meta name="twitter:app:id:ipad" content="1113379853">
+
+<!-- Apple Smart App Banner -->
+<meta name="apple-itunes-app" content="app-id=1113379853,affiliate-data=1001l5Yq">
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-3 .hero,
+    #public-landing-page.template-4 .hero,
+    #public-landing-page.template-7 .hero,
+    #public-landing-page.template-8 .hero .graphic,
+    #public-landing-page.template-9 .bg-color,
+    #public-landing-page .store-badge-white-text,
+    #public-landing-page.template-1color .hero,
+    #public-landing-page.template-2color .hero {
+      background: #EDEDED;
+    }
+    #public-landing-page.template-5 .hero h2,
+    #public-landing-page.template-6 .hero h1,
+    #public-landing-page.template-8 .hero,
+    #public-landing-page.template-9 .hero h2,
+    #public-landing-page .hero .btn,
+    #public-landing-page .navbar .btn,
+    #public-landing-page .navbar.invert-navbar a,
+    #public-landing-page footer a,
+    #public-landing-page .benefit-header {
+      color: #EDEDED;
+    }
+    #public-landing-page .btn.btn-primary.btn-primary-invert,
+    #public-landing-page .navbar.invert-navbar .btn.btn-primary,
+    #public-landing-page .navbar .navbar-collapse.in .btn.btn-primary,
+    #public-landing-page .navbar .navbar-toggle .icon-bar,
+    #public-landing-page .download-text {
+      color: white;
+      background-color: #EDEDED;
+    }
+
+
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-4 .hero {
+      overflow: hidden;
+    }
+    #public-landing-page .hero .blurred-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1px;
+      background-image: url('image/screen696x696.jpeg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+      filter: blur(50px);
+      margin: -60% -40% -40%;
+    }
+    #public-landing-page .hero .blurred-cover .darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2px;
+      background: rgba(0,0,0,.3);
+    }
+
+  @media screen and (max-width: 767px) {
+      #public-landing-page.template-9 .hero h1 {
+        background: #EDEDED;
+      }
+  }
+</style>
+
+</head>
+<body>
+	<div id="skit-controller"><div id="public-landing-page" class="template-2">
+  <section class="hero">
+    <div class="blurred-cover">
+      <div class="darken"></div>
+    </div>
+  <div class="container">
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="/websites/example">
+          <img alt="词记" src="image/thumb/512x512bb.jpg" class="app-icon">
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs"><a href="/websites/example">Home Page</a></li>
+          <li class="visible-xs"><a href="https://itunes.apple.com/app/id1113379853?mt&#x3D;8" target="_blank">Download from App Store</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#" class="btn btn-primary">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 text-center">
+          <img src="image/thumb/512x512bb.jpg" class="app-icon img-rounded">
+        </div>
+        <div class="col-sm-7 col-xs-12">
+          <h1>词记</h1>
+          <h2>用一个词记录今天</h2>
+            <a href="https://itunes.apple.com/app/id1113379853?mt&#x3D;8" class="app-store-badge" target="_blank">
+    <img src="__static__/images/websites/public/app-store-black-on-color@2x.png">
+  </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <section class="description">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 col-xs-12 pull-right">
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="image/scrshot/0.png" class="screenshot" alt="Screenshot of 词记">
+        </div>
+        <div class="item">
+          <img src="image/scrshot/1.png" class="screenshot" alt="Screenshot of 词记">
+        </div>
+        <div class="item">
+          <img src="image/scrshot/2.png" class="screenshot" alt="Screenshot of 词记">
+        </div>
+        <div class="item">
+          <img src="image/scrshot/3.png" class="screenshot" alt="Screenshot of 词记">
+        </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-sm-7 col-xs-12 description-text">
+        <p>你一定写过日记。或许是小学语文老师布置的家庭作业，或许是青春期时懵懵懂懂的情感记忆，或许是长大后日记本里给自己的加油打气，或许是旅行在外每天晚上写下的旅途随笔。<br><br>词记，让你用一个独特的方式写日记。把今天所有的点点滴滴，在思绪中整理、精心挑选，然后只用一个词来概括。<br><br>或许随着时间流逝，再看到这些词时，早已想不起这词背后的故事。但这些故事给自己留下的感觉，却依然明晰：惊喜、开心、阳光明媚、意外收获，亦或失落、无聊、阴雨绵绵、心情好糟。<br><br>是的，这就是我们的生活。<br><br>词记，用一个词记录今天！<br>一天一个词，烦恼去无边～</p>
+          <a href="https://itunes.apple.com/app/id1113379853?mt&#x3D;8" class="app-store-badge" target="_blank">
+    <span class="store-badge-white-text">
+      <img src="__static__/images/websites/public/app-store-white-text@2x.png">
+    </span>
+  </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+    <footer>
+    <div class="container">
+      <div class="footer-nav col-xs-12 col-sm-8 pull-right text-right">
+
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
